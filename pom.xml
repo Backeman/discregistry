@@ -5,4 +5,11 @@
   <version>0.1-SNAPSHOT</version>
   <name>Discregistry</name>
   <description>A registry for my fathers disc and trackss</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.4</version>
+  	</dependency>
+  </dependencies>
 </project>

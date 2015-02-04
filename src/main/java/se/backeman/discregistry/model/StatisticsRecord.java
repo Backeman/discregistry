@@ -8,14 +8,14 @@ public class StatisticsRecord {
 	private int place;
 	private int month;
 
-	private StatisticsRecord(Song song, TopList toplist, int place, int month) {
+	public StatisticsRecord(Song song, TopList toplist, int place, int month) {
 		this.song = song;
 		this.toplist = toplist;
 		this.place = place;
 		this.month = month;
 	}
 
-	private StatisticsRecord(int id, Song song, TopList toplist, int place, int month) {
+	public StatisticsRecord(int id, Song song, TopList toplist, int place, int month) {
 		this.id = id;
 		this.song = song;
 		this.toplist = toplist;

@@ -3,14 +3,17 @@ package se.backeman.discregistry.model;
 public class Song {
 	int id;
 	String name;
+	Artist artist;
 
-	private Song(int id, String name) {
+	public Song(int id, String name, Artist artist) {
 		this.id = id;
 		this.name = name;
+		this.artist = artist;
 	}
 
-	private Song(String name) {
+	public Song(String name, Artist artist) {
 		this.name = name;
+		this.artist = artist;
 	}
 
 	public int getId() {

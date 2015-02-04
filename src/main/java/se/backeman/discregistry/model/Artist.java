@@ -4,12 +4,12 @@ public class Artist {
 	int id;
 	String name;
 
-	Artist(int id, String name) {
+	public Artist(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 
-	Artist(String name) {
+	public Artist(String name) {
 		this.name = name;
 	}
 

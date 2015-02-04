@@ -4,11 +4,11 @@ public class TopList {
 	int id;
 	String title;
 
-	private TopList(String title) {
+	public TopList(String title) {
 		this.title = title;
 	}
 
-	private TopList(int id, String title) {
+	public TopList(int id, String title) {
 		this.id = id;
 		this.title = title;
 	}

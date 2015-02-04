@@ -14,7 +14,17 @@ public class ArtistTest {
 	}
 
 	@Test
-	public void test() {
+	public void testGetId() {
 		Assert.assertEquals(1,  this.artist.getId());		
+	}
+	
+	@Test 
+	public void testGetIdFails() {
+		Assert.assertFalse(this.artist.getId() == 2);
+	}
+	
+	@Test
+	public void testGetName() {
+		Assert.assertEquals("foobar", this.artist.getName());
 	}
 }
